@@ -4,18 +4,7 @@ Vanilla Pandemic only for now
 
 Decks can be lists - only funcs needed are .pop and random.shuffle
 
-Phase 1: Text based game that 2 or more humans can pass + play.
-    - Write MVP gameplay script - no Events, Roles, and no one is trying to break it
-        - Need some kind of GUI
-        - Write the setup
-        - Write the gameplay
-    - Build 7 Player subclasses
-    - Build 5 Event subclasses
-    - Add error checking
-Phase 2: Deploy an console-based Python app over the web and have it collect data
-    - Build a data pipeline
-    - Play / share / accumulate data
-Phase 3: Build a ML-based automated player
+
 
 '''
 
