@@ -5,7 +5,6 @@ Vanilla Pandemic only for now
 Decks can be lists - only funcs needed are .pop and random.shuffle
 
 Phase 1: Text based game that 2 or more humans can pass + play.
-    - Put this on GitHub
     - Write MVP gameplay script - no Events, Roles, and no one is trying to break it
         - Need some kind of GUI
         - Write the setup
