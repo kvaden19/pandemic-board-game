@@ -9,15 +9,15 @@ and data science skills.
 
 TASK LIST: <br> <br>
 Phase 1: Text based game that 2 or more humans can pass + play. <br>
-    - Write MVP gameplay script - no Events, Roles, and no one is trying to break it <br> 
-        - Continue finessing map <br>
-        - How will cubes and players get passed into the map? <br>
-        - Write the setup <br>
-        - Write the gameplay script <br>
-    - Test test test test test <br>
+    - Write MVP game (no Events, no Roles, and no one is trying to break it). <br>
+        - Refactor Map as an object. Do unit testing on passing in players and cube counts. <br>
+        - On Map, get cube annotations right and finish building out map. <br>
+        - Pseudocode the Game object. <br>
+        - Code all the City objects <br>
+    - User testing <br>
+    - Add error checking <br>
     - Build 7 Player subclasses <br>
-    - Build 5 Event subclasses <br>
-    - Add error checking <br> <br>
+    - Build 5 Event subclasses <br> <br>
 Phase 2: Deploy an console-based Python app over the web and have it collect data <br>
     - Build a data pipeline <br>
     - Play / share / accumulate data <br> <br>
