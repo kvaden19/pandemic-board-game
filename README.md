@@ -10,9 +10,11 @@ and data science skills.
 TASK LIST: <br> <br>
 Phase 1: Text based game that 2 or more humans can pass + play. <br>
     - Write MVP gameplay script - no Events, Roles, and no one is trying to break it <br> 
-        - Need some kind of GUI <br>
+        - Continue finessing map <br>
+        - How will cubes and players get passed into the map? <br>
         - Write the setup <br>
-        - Write the gameplay <br>
+        - Write the gameplay script <br>
+    - Test test test test test <br>
     - Build 7 Player subclasses <br>
     - Build 5 Event subclasses <br>
     - Add error checking <br> <br>
