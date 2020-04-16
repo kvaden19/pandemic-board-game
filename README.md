@@ -10,11 +10,12 @@ and data science skills.
 TASK LIST: <br> <br>
 Phase 1: Text based game that 2 or more humans can pass + play. <br>
     - Write MVP game (no Events, no Roles, and no one is trying to break it). <br>
-        - Refactor Map as an object. Do unit testing on passing in players and cube counts. <br>
+        - Continue working on Map; do unit testing on passing in players and cube counts. <br>
         - On Map, get cube annotations right and finish building out map. <br>
         - Pseudocode the Game object. <br>
         - Code all the City objects <br>
     - User testing <br>
+    - Read style guide and incorporate <br>
     - Add error checking <br>
     - Build 7 Player subclasses <br>
     - Build 5 Event subclasses <br> <br>
