@@ -6,8 +6,8 @@ v1.0
 
 
 class Player:
-    def __init__(self, name='Player1', role=None, hand=[], location=None, actions=4, cards_to_cure=5, quarantine=False,
-                 event=None):
+    def __init__(self, name='Player1', role=None, hand=None, location=None, actions=4, cards_to_cure=5,
+                 quarantine=False, event=None):
         self.name = name
         self.role = role
         self.hand = hand
@@ -97,43 +97,3 @@ class Player:
 
     #Roles will be subclasses of Player
 
-
-class Disease:
-    def __init__(self, color='red', cured=False, eradicated=False):
-        self.color = color
-        self.cured = cured
-        self.eradicated = eradicated
-
-    def __str__(self):
-        return 'The {} disease. Cured: {}. Eradicated: {}.'.format(self.color, self.cured, self.eradicated)
-
-
-class City:
-    def __init__(self, name=None, population=100000, color='red', cubes={'red':0, 'blue':0, 'yellow':0, 'black':0},
-                 research=False, connected_cities=[], players=[], owner=None):
-        self.name = name
-        self.population = population
-        self.color = color
-        self.cubes = cubes
-        self.research = research
-        self.connected_cities = connected_cities
-        self.players = players
-        # self.owner = owner
-
-    def __str__(self):
-        return '{} is a {} city. Current diseases: {}. Current players: {} Research station: {}.\n'\
-            .format(self.name, self.color, self.cubes, self.players, self.research)
-
-    def __iter__(self):
-        return self
-
-    def infect(self, disease_color, intensity=1):
-    # Increases the cubes of a given disease on a city.
-        self.cubes[disease_color] += 1
-        print(self.name, 'was infected with', disease_color)
-
-# class Event:
-#     def __init__(self, skip_infect=False):
-#         self.skip_infect = skip_infect
-#
-#     # Every event is a subclass
