@@ -10,8 +10,10 @@ and data science skills.
 TASK LIST: <br> <br>
 Phase 1: Text based game that 2 or more humans can pass + play. <br>
     - Write MVP game (no Events, no Roles, and no one is trying to break it). <br>
-        - Re-do unit tests with immutable default args. <br>
-        - Pseudocode the Game object. <br>
+        - Modify Player.treat and City.infect methods + write Game.outbreak method <br>
+        - Write Game methods <br>
+        - Write Play script <br>
+        - Re-do unit tests with immutable default args + unit test new methods <br>
         - Improve placement and color of map annotations. <br>
         - Finish building out map. <br>
         - Code all the City objects <br>
