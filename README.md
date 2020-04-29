@@ -8,23 +8,26 @@ I decided creating my own port of the cooperative board game would be a good por
 and data science skills.
 
 TASK LIST:
-Phase 1: Text based game that 2 or more humans can pass + play.
-- Write MVP game (no Events, no Roles, and no one is trying to break it).
+Phase 1: MVP game (no Events, no Roles, and no one is trying to break it).
 - [X] Modify Player.treat and City.infect methods
-- [ ] Write Game methods
+- [X] Write Game.setup
+- [ ] Write remaining Game methods
 - [ ] Write Play script
-- [ ] Re-do unit tests with immutable default args + unit test new methods
+- [ ] Re-do unit tests on ~ 15 methods (3 sessions?)
 - [ ] Improve placement and color of map annotations.
 - [ ] Finish building out map.
 - [ ] Code all the City objects
-- User testing
+- Local user testing
+- Deploy online
+
+Phase 2: Improvements
 - Read style guide and incorporate
 - Add error checking
 - Build 7 Player subclasses
 - Build 5 Event subclasses
 
-Phase 2: Deploy an console-based Python app over the web and have it collect data
+Phase 3: Data Collection
 - Build a data pipeline
 - Play / share / accumulate data
 
-Phase 3: Build a ML-based automated player
+Phase 4: Build a ML-based automated player
