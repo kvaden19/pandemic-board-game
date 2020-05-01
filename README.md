@@ -11,7 +11,7 @@ TASK LIST:
 Phase 1: MVP game (no Events, no Roles, and no one is trying to break it).
 - [X] Modify Player.treat and City.infect methods
 - [X] Write Game.setup
-- [ ] Write remaining Game methods
+- [ ] Write Outbreak method
 - [ ] Write Play script
 - [ ] Re-do unit tests on 23 methods (4 sessions)
 - [ ] Improve placement and color of map annotations.
