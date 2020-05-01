@@ -13,7 +13,7 @@ Phase 1: MVP game (no Events, no Roles, and no one is trying to break it).
 - [X] Write Game.setup
 - [ ] Write remaining Game methods
 - [ ] Write Play script
-- [ ] Re-do unit tests on ~ 15 methods (3 sessions?)
+- [ ] Re-do unit tests on 23 methods (4 sessions)
 - [ ] Improve placement and color of map annotations.
 - [ ] Finish building out map.
 - [ ] Code all the City objects
