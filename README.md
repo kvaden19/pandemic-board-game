@@ -8,6 +8,7 @@ I decided creating my own port of the cooperative board game would be a good por
 and data science skills.
 
 TASK LIST:
+
 Phase 1: MVP game (no Events, no Roles, and no one is trying to break it).
 - [X] Modify Player.treat and City.infect methods
 - [X] Write Game.setup
@@ -17,8 +18,8 @@ Phase 1: MVP game (no Events, no Roles, and no one is trying to break it).
 - [ ] Improve placement and color of map annotations.
 - [ ] Finish building out map.
 - [ ] Code all the City objects
-- Local user testing
-- Deploy online
+- [ ] Local user testing
+- [ ] Deploy online
 
 Phase 2: Improvements
 - Read style guide and incorporate
