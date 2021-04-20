@@ -1,0 +1,25 @@
+{
+  "name": "pandemic",
+  "version": "1.0.0",
+  "description": "During the Covid-19 Pandemic of Spring 2020, various browser-based ports of popular board games started making the rounds,  so that one could play games over video conference with one's friend group while in lockdown. However my favorite board game,  and one that felt deliciously ironic during this time, was missing from the list: Pandemic.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvaden19/pandemic.git"
+  },
+  "author": "Kelly Vaden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvaden19/pandemic/issues"
+  },
+  "homepage": "https://github.com/kvaden19/pandemic#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}

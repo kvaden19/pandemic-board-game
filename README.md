@@ -10,27 +10,21 @@ and data science skills.
 ### TODOs:
 
 #### Front-End:
-** Wireframe layout
-- Bootstrap layout
+** Decide CSS framework
 ** World map research
 
 #### Back-End:
-** Game function
 ** Disease Object
-- City Object + 1 method
-- Player Object + 8 methods
-- Unit tests
+    - Add a "change count" method and test - need to track # of "cubes"
+** City Test (1 method)
+- City Object
+- Player Test (8 methods)
+- Player Object
+- Game setup script
+- Gameplay script
 
 ##### Future Work:
 
 ###### Phase 2: Improvements
-- Read style guide and incorporate
-- Add error checking
 - Build 7 Player subclasses
 - Build 5 Event subclasses
-
-###### Phase 3: Data Collection
-- Build a data pipeline
-- Play / share / accumulate data
-
-###### Phase 4: Build a ML-based automated player
