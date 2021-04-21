@@ -1,10 +1,9 @@
-const { expect } = require('@jest/globals');
-const disease = require('../lib/Disease.js');
+const Disease = require('../lib/Disease.js');
 
 describe('Disease Class', () => {
     describe('initialization', () => {
         test('should create an object with color, cured, and eradicated properties if provided valid arguments', () => {
-            const disease = new Disease('red', 96, true, false);
+            let disease = new Disease('red', 96, true, false);
             expect(disease.color).toEqual('red');
             expect(disease.cubes).toEqual(96);
             expect(disease.cured).toEqual(true);
