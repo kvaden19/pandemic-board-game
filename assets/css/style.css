@@ -1,0 +1,29 @@
+:root {
+    --background: #154f69;
+}
+
+* {
+    background-color: var(--background);
+    box-sizing: border-box;
+    font-family: 'Rubik', 'Roboto', 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px 10px;
+    font-size: 45px;
+    color: #EA2027;
+    text-shadow: 6px 0px #FFC312;
+}
+
+#board {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#player-one {
+    height: 250px;
+}
