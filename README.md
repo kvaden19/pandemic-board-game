@@ -8,21 +8,35 @@ I decided creating my own port of the cooperative board game would be a good por
 
 ### TODOs:
 
-#### Front-End:
-** Mockup using Bulma
-- Map
-    - Each city will have "coordinates" which will fix its marker on the map (remember absolute, relative, etc positioning)
-        - Hidden if nothing is there
-        - Shown if markers, diseases, etc are there
+#### Front-End: (7)
+** Design elements / HTML / CSS Layout: (6)
+    ** Lines between cities
+    - Player cards and cardbacks
+    - City cards and cardbacks
+    - Event cards
+    - Epidemic cards
+    - Outbreak Count
+    - Infection Count
+    - Player markers
+    - Research stations
+    - Disease markers
+    - Player "nametag" and role name
+    - Hint box
+    - City name (animate in from left on hover)
+- Continue plotting map markers (42 cities) (1)
 
-#### Back-End:
-** City Test (1 method)
-- City Object
-- Instantiate all the Cities
-- Player Test (8 methods)
-- Player Object
-- Game setup script
-- Gameplay script
+#### Back-End: (10)
+** City Test (1 method) (0.5)
+** Refactor Disease into a Sequelize Model (0.5)
+- City Model (0.5)
+- Instantiate all the Cities (1)
+- Player Test (8 methods) (2)
+- Player Model (2)
+- Game setup script (2)
+- Gameplay script (2)
+
+#### DOM: (5)
+- Connect the JS Models to the DOM elements
 
 ##### Future Work:
 
