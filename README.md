@@ -9,12 +9,15 @@ I decided creating my own port of the cooperative board game would be a good por
 ### TODOs:
 
 #### Front-End: (7)
-** Design elements / HTML / CSS Layout: (6)
-    ** Lines between cities
-    - Player cards and cardbacks
-    - City cards and cardbacks
+** Re-factor map and N. American cities using SVG
+- Design elements / HTML / CSS Layout:
+    - City name (animate in from left on hover)
+    - Player cards
+    - Player cardback
+    - City cards
+    - City cardback
     - Event cards
-    - Epidemic cards
+    - Epidemic cards (alert-like)
     - Outbreak Count
     - Infection Count
     - Player markers
@@ -22,8 +25,7 @@ I decided creating my own port of the cooperative board game would be a good por
     - Disease markers
     - Player "nametag" and role name
     - Hint box
-    - City name (animate in from left on hover)
-- Continue plotting map markers (42 cities) (1)
+- Plot remaining City markers and routes using SVG
 
 #### Back-End: (10)
 ** City Test (1 method) (0.5)
