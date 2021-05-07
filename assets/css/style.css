@@ -1,3 +1,5 @@
+/* Root and All */
+
 :root {
     --background: #154f69;
     --blue: #0652DD;
@@ -11,6 +13,14 @@
     box-sizing: border-box;
 }
 
+/* Colors */
+
+.blue {
+    background-color: var(--blue);
+}
+
+/* Header */
+
 h1 {
     font-size: 75px;
     font-family: 'Rubik', 'Roboto', 'Open Sans', sans-serif;
@@ -19,80 +29,38 @@ h1 {
 header {
     width: 100%;
     text-align: center;
-    padding: 10px 10px 40px;
+    padding: 10px 10px 100px;
     color: #EA2027;
     text-shadow: 6px 0px #FFC312;
 }
 
-#map {
-    position: relative;
-}
+/* SVG and Map */
 
-#map img {
-    width: 85%;
+#world-map {
+    position: relative;
     display: block;
+    width: 85%;
     padding: 0;
     margin-left: 14%;
     margin-right: 1%;
 }
 
-.city {
-    opacity: 1.0
-}
-
-/* .city:hover {
-    opacity: 1.0;
-} */
-
-#atlanta {
+#world-map svg { 
+    display: block;
     position: absolute;
-    bottom: 67%;
-    left: 28.5%;
+    top: 0; 
+    left: 0;
 }
 
-#san-francisco {
-    position: absolute;
-    bottom: 73%;
-    left: 18%;
-}
+/* Individual Cities */
 
-#chicago {
-    position: absolute;
-    bottom: 74%;
-    left: 24%;
-}
-
-#montreal {
-    position: absolute;
-    bottom: 76%;
-    left: 31%;
-}
-
-#new-york {
-    position: absolute;
-    bottom: 73%;
-    left: 34%;
-}
-
-#dc {
-    position: absolute;
-    bottom: 67%;
-    left: 32%;
-}
-
-#montreal {
-    position: absolute;
-    bottom: 76%;
-    left: 31%;
-}
+/* Player Styling */
 
 #player-one {
     height: 250px;
 }
 
-.blue {
-    background-color: var(--blue);
-}
+/* Footer */
 
 footer {
     width: 100%;
