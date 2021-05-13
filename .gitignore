@@ -5,3 +5,6 @@
 
 # Node Dependencies #
 node_modules/
+
+# ENV #
+.env

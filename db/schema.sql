@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS pandemic_db;
+CREATE DATABASE pandemic_db;
